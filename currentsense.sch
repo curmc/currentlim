@@ -17470,21 +17470,14 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <junction x="151.13" y="63.5"/>
 </segment>
 <segment>
-<pinref part="DATA" gate="A" pin="2"/>
-<wire x1="72.39" y1="29.21" x2="63.5" y2="29.21" width="0.1524" layer="91"/>
-<label x="63.5" y="29.21" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="ISP" gate="A" pin="3"/>
 <wire x1="96.52" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <label x="91.44" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="SDA" class="0">
 <segment>
-<pinref part="DATA" gate="A" pin="1"/>
-<wire x1="72.39" y1="31.75" x2="63.5" y2="31.75" width="0.1524" layer="91"/>
-<label x="63.5" y="31.75" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="DATA" gate="A" pin="3"/>
+<wire x1="72.39" y1="26.67" x2="63.5" y2="26.67" width="0.1524" layer="91"/>
+<label x="63.5" y="26.67" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -17595,13 +17588,6 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="OC_DETECT" class="0">
-<segment>
-<pinref part="DATA" gate="A" pin="3"/>
-<wire x1="72.39" y1="26.67" x2="63.5" y2="26.67" width="0.1524" layer="91"/>
-<label x="63.5" y="26.67" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="CURRENT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB3/XTAL1/CLKI/ADC3"/>
@@ -17667,20 +17653,22 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <pinref part="U$3" gate="G$1" pin="VIN"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="M-IP+" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="V-"/>
 <pinref part="U$2" gate="G$1" pin="IP+"/>
 <wire x1="-24.384" y1="82.296" x2="-24.384" y2="62.23" width="0.1524" layer="91"/>
 <wire x1="-24.384" y1="62.23" x2="-8.89" y2="62.23" width="0.1524" layer="91"/>
+<label x="-22.86" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="M-IP-" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IP-"/>
 <pinref part="U$5" gate="G$1" pin="V-"/>
 <wire x1="-36.322" y1="56.896" x2="-8.89" y2="56.896" width="0.1524" layer="91"/>
 <wire x1="-8.89" y1="56.896" x2="-8.89" y2="57.15" width="0.1524" layer="91"/>
+<label x="-22.86" y="55.88" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="SDA/5" class="0">
@@ -17698,6 +17686,11 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <wire x1="104.14" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="111.76" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="DATA" gate="A" pin="1"/>
+<wire x1="72.39" y1="31.75" x2="63.5" y2="31.75" width="0.1524" layer="91"/>
+<label x="63.5" y="31.75" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="OC_DETECT/6" class="0">
 <segment>
@@ -17710,13 +17703,19 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <wire x1="96.52" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <label x="91.44" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="DATA" gate="A" pin="2"/>
+<wire x1="72.39" y1="29.21" x2="63.5" y2="29.21" width="0.1524" layer="91"/>
+<label x="63.5" y="29.21" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="N$4" class="0">
+<net name="M+" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="V+"/>
 <pinref part="U$4" gate="G$1" pin="V+"/>
 <wire x1="-36.322" y1="61.976" x2="-29.464" y2="61.976" width="0.1524" layer="91"/>
 <wire x1="-29.464" y1="61.976" x2="-29.464" y2="82.296" width="0.1524" layer="91"/>
+<label x="-30.48" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
