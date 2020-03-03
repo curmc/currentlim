@@ -17306,14 +17306,17 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="hicurrent" width="0" drill="0">
+<clearance class="1" value="0.762"/>
+</class>
 </classes>
 <parts>
 <part name="U$1" library="currentlim" deviceset="ATTINY85" device="V-10SUR"/>
 <part name="U$2" library="currentlim" deviceset="ACS781" device="LLRTR-050B-T_M"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17322,17 +17325,17 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DATA" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="2.2k"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="U$4" library="XT Connectors" deviceset="XT60-RA" device=""/>
 <part name="U$5" library="XT Connectors" deviceset="XT60-RA" device=""/>
 <part name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uF"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$3" library="currentlim" deviceset="LM1117" device=""/>
@@ -17341,6 +17344,8 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -17357,11 +17362,11 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <attribute name="NAME" x="149.6314" y="73.66" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="154.432" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="72.39" y="74.93" smashed="yes">
-<attribute name="VALUE" x="69.85" y="69.85" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V1" gate="G$1" x="71.12" y="76.2" smashed="yes">
+<attribute name="VALUE" x="68.58" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="72.39" y="50.8" smashed="yes">
-<attribute name="VALUE" x="69.85" y="48.26" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="71.12" y="50.8" smashed="yes">
+<attribute name="VALUE" x="68.58" y="48.26" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="143.51" y="77.47" smashed="yes" rot="R90">
 <attribute name="NAME" x="142.0114" y="73.66" size="1.778" layer="95" rot="R90"/>
@@ -17455,6 +17460,14 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <instance part="+3V7" gate="G$1" x="69.85" y="108.712" smashed="yes">
 <attribute name="VALUE" x="67.31" y="103.632" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="C5" gate="G$1" x="71.12" y="63.5" smashed="yes">
+<attribute name="NAME" x="72.136" y="64.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="72.136" y="59.309" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="119.38" y="22.86" smashed="yes">
+<attribute name="NAME" x="120.396" y="23.495" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.396" y="18.669" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17494,9 +17507,12 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="76.2" y1="68.58" x2="72.39" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="68.58" x2="72.39" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="68.58" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="66.04" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
+<junction x="71.12" y="68.58"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
@@ -17537,9 +17553,12 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="72.39" y1="53.34" x2="72.39" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="53.34" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="72.39" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="58.42" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<junction x="71.12" y="55.88"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
@@ -17561,6 +17580,10 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="19.05" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="132.08" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
+<junction x="132.08" y="15.24"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="15.24" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POWER" gate="G$1" pin="2"/>
@@ -17590,30 +17613,35 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 </net>
 <net name="CURRENT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB3/XTAL1/CLKI/ADC3"/>
-<wire x1="127" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
-<label x="132.08" y="60.96" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="59.69" x2="40.64" y2="59.69" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="58.42" x2="40.64" y2="59.69" width="0.1524" layer="91"/>
 <label x="40.64" y="59.69" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="TEMPERATURE" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB4/XTAL2/CLKO/ADC2"/>
 <wire x1="127" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <label x="132.08" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="TEMPERATURE" class="0">
 <segment>
 <pinref part="THERMISTOR" gate="G$1" pin="2"/>
 <wire x1="143.51" y1="35.56" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="35.56" x2="132.08" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="35.56" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <label x="132.08" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="30.48" x2="132.08" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="25.4" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
+<junction x="132.08" y="30.48"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB3/XTAL1/CLKI/ADC3"/>
+<wire x1="127" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<label x="132.08" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -17653,7 +17681,7 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <pinref part="U$3" gate="G$1" pin="VIN"/>
 </segment>
 </net>
-<net name="M-IP+" class="0">
+<net name="M-IP+" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="V-"/>
 <pinref part="U$2" gate="G$1" pin="IP+"/>
@@ -17662,7 +17690,7 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <label x="-22.86" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="M-IP-" class="0">
+<net name="M-IP-" class="1">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IP-"/>
 <pinref part="U$5" gate="G$1" pin="V-"/>
@@ -17709,7 +17737,7 @@ https://www.aliexpress.com/item/32967095856.html?spm=a2g0o.detail.1000013.7.4264
 <label x="63.5" y="29.21" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="M+" class="0">
+<net name="M+" class="1">
 <segment>
 <pinref part="U$5" gate="G$1" pin="V+"/>
 <pinref part="U$4" gate="G$1" pin="V+"/>
